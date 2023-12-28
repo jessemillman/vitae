@@ -7,15 +7,17 @@ import (
 import "fmt"
 
 templ Header(props types.Basics) {
-	<section class="header-section">
-		<div class="header">
-			<h1 class="name">{ props.Name }</h1>
-			<p class="summary">{ props.Summary }</p>
-			<p class="location"><a href={ templ.SafeURL(fmt.Sprintf("https://www.google.com/maps/place/%s", props.Location.City)) }>{ props.Location.City }</a></p>
-			<div class="socials">
-				@Socials(props.Profiles)
+	<section class="header-section mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+		<div class="header flex items-center justify-between">
+			<div class="flex-1 space-y-1.5">
+				<h1 class="name text-2xl font-bold">{ props.Name }</h1>
+				<p class="summary max-w-md text-pretty font-mono text-sm text-muted-foreground">{ props.Summary }</p>
+				<p class="location max-w-md items-center text-pretty font-mono text-xs text-muted-foreground"><a class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline" href={ templ.SafeURL(fmt.Sprintf("https://www.google.com/maps/place/%s", props.Location.City)) }>{ props.Location.City }</a></p>
+				<div class="socials">
+					@Socials(props.Profiles)
+				</div>
 			</div>
-            <span class="avatar">
+            <span class="avatar relative flex shrink-0 overflow-hidden rounded-xl h-28 w-28">
                 <img class="" src={ props.Image } alt={ props.Name } />
             </span>
 		</div>
