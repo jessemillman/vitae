@@ -1,0 +1,13 @@
+package home 
+
+import (
+	"github.com/jessemillman/vitae/view/layout"
+	"github.com/jessemillman/vitae/types"
+	"github.com/jessemillman/vitae/view/components"
+)
+
+templ Show(cv types.CV) {
+	@layout.Base() {
+		@components.Header(cv.Basics)
+	}
+}

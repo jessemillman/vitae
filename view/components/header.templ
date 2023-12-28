@@ -1,0 +1,23 @@
+package components 
+
+import (
+	"github.com/jessemillman/vitae/types"
+)
+
+import "fmt"
+
+templ Header(props types.Basics) {
+	<section class="header-section">
+		<div class="header">
+			<h1 class="name">{ props.Name }</h1>
+			<p class="summary">{ props.Summary }</p>
+			<p class="location"><a href={ templ.SafeURL(fmt.Sprintf("https://www.google.com/maps/place/%s", props.Location.City)) }>{ props.Location.City }</a></p>
+			<div class="socials">
+				@Socials(props.Profiles)
+			</div>
+            <span class="avatar">
+                <img class="" src={ props.Image } alt={ props.Name } />
+            </span>
+		</div>
+	</section>
+}
