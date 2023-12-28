@@ -1,0 +1,33 @@
+package components 
+
+import (
+	"github.com/jessemillman/vitae/types"
+)
+
+import "fmt"
+
+templ Education(items []types.Education) {
+	<section class="education-section">
+		<div class="education">
+			<h2>Education</h2>
+			for _, item := range items {
+				<div class="education-item">
+					<div class="education-title">
+						<h3><a href={ templ.SafeURL(item.URL) }>{ item.Institution }</a></h3>
+						<div class="education-date">
+							{ fmt.Sprintf("%s - %s", item.StartDate, item.EndDate) }
+						</div>
+					</div>
+					<div class="education-subtitle">
+						<h4>{ item.StudyType }</h4>
+					</div>
+					<div class="education-summary">
+						for _, course := range item.Courses {
+                            <p>{ course }</p>
+						}
+					</div>
+				</div>
+			}
+		</div>
+	</section>
+}

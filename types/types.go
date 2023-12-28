@@ -15,15 +15,15 @@ type CV struct {
 	Projects     []Projects     `json:"projects"`
 }
 type Basics struct {
-	Name     string   `json:"name"`
-	Label    string   `json:"label"`
-	Image    string   `json:"image"`
-	Email    string   `json:"email"`
-	Phone    string   `json:"phone"`
-	URL      string   `json:"url"`
-	Summary  string   `json:"summary"`
-	Location Location `json:"location"`
-	Profiles Profiles `json:"profiles"`
+	Name     string     `json:"name"`
+	Label    string     `json:"label"`
+	Image    string     `json:"image"`
+	Email    string     `json:"email"`
+	Phone    string     `json:"phone"`
+	URL      string     `json:"url"`
+	Summary  string     `json:"summary"`
+	Location Location   `json:"location"`
+	Profiles []Profiles `json:"profiles"`
 }
 
 type Location struct {
@@ -34,7 +34,7 @@ type Location struct {
 	Region      string `json:"region"`
 }
 
-type Profiles []struct {
+type Profiles struct {
 	Network  string `json:"network"`
 	Username string `json:"username"`
 	URL      string `json:"url"`

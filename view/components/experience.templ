@@ -1,0 +1,31 @@
+package components 
+
+import (
+	"github.com/jessemillman/vitae/types"
+)
+
+import "fmt"
+
+templ Experience(items []types.Work) {
+	<section class="experience-section">
+		<div class="experience">
+        <h2>Work Experience</h2>
+			for _, item := range items {
+                <div class="experience-item">
+                    <div class="experience-title">
+                        <h3><a href={ templ.SafeURL(item.URL) }>{ item.Name }</a></h3>
+                        <div class="experience-date">
+                            { fmt.Sprintf("%s - %s", item.StartDate, item.EndDate) }
+                        </div>
+                    </div>
+                    <div class="experience-subtitle">
+                        <h4>{ item.Position }</h4>
+                    </div>
+                    <div class="experience-summary">
+                        <p>{ item.Summary }</p>
+                    </div>
+                </div>
+                }
+		</div>
+	</section>
+}

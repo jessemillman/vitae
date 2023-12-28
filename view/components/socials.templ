@@ -2,7 +2,7 @@ package components
 
 import "github.com/jessemillman/vitae/types"
 
-templ Socials(items types.Profiles) {
+templ Socials(items []types.Profiles) {
 	for _, item := range items {
         <a href={templ.SafeURL(item.URL)} class="social-item">{item.Network}</a>
     }

@@ -9,5 +9,10 @@ import (
 templ Show(cv types.CV) {
 	@layout.Base() {
 		@components.Header(cv.Basics)
+        @components.Experience(cv.Work)
+        @components.Education(cv.Education)
+        @components.Skills(cv.Skills)
+        @components.Projects(cv.Projects) 
+
 	}
 }

@@ -1,0 +1,19 @@
+package components 
+
+import (
+	"github.com/jessemillman/vitae/types"
+)
+
+
+templ Skills(items []types.Skills) {
+	<section class="skills-section">
+		<div class="skills">
+			<h2>Skills</h2>
+			for _, item := range items {
+				<div class="skills-item">
+					{ item.Name }
+				</div>
+			}
+		</div>
+	</section>
+}
