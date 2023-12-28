@@ -1,110 +1,229 @@
 {
-    "basics": {
-      "name": "Jesse Millman",
-      "label": "Programmer",
-      "image": "https://ca.slack-edge.com/T0610BMNSS3-U0610BVM7JT-c8f48559ba2c-512",
-      "email": "jesse@jessemillman.com.au",
-      "phone": "",
-      "url": "https://jessemillman.com.au",
-      "summary": "A summary of Jesse Millman...",
-      "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+  "basics": {
+    "name": "Jesse Millman",
+    "label": "CEO",
+    "image": "https://ca.slack-edge.com/T0610BMNSS3-U0610BVM7JT-c8f48559ba2c-512",
+    "email": "jesse@wweevv.app",
+    "phone": "",
+    "url": "https://jessemillman.com.au",
+    "summary": "As a Full Stack Engineer, I have successfully implemented major projects at several early stage startups, unicorns, and at AWS. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with Go, Rust, & Typescript.",
+    "location": {
+      "address": "25 Cooper St",
+      "postalCode": "2010",
+      "city": "Surry Hills",
+      "countryCode": "AU",
+      "region": "New South Wales"
+    },
+    "profiles": [
+      {
+        "network": "mail",
+        "username": "jesse",
+        "url": "mailto://jesse@wweevv.app"
       },
-      "profiles": [{
+      {
         "network": "Twitter",
         "username": "jessemillman",
         "url": "https://twitter.com/jessemillman"
-      }]
-    },
-    "work": [{
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jessemillman",
+        "url": "https://linkedin.com/in/jessemillman"
+      },
+      {
+        "network": "Github",
+        "username": "jessemillman",
+        "url": "https://github.com/jessemillman"
+      }
+    ]
+  },
+  "work": [
+    {
       "name": "WWEEVV",
       "position": "CEO",
       "url": "https://wweevv.app",
-      "startDate": "2013-11-01",
-      "endDate": "present",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "volunteer": [{
+      "startDate": "2023",
+      "endDate": "Now",
+      "summary": "As the CEO, it is my responsibility to develop & implement the overall business strategy, and to build & lead a strong team.",
+      "highlights": ["Seed Round", "App Launch"]
+    },{
+      "name": "Immutable",
+      "position": "Global Head of Solutions Architecture",
+      "url": "https://immutable.com",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Lead the Solutions Architecture team",
+      "highlights": ["Promotion"]
+    },{
+      "name": "AWS",
+      "position": "Senior Solutions Architect",
+      "url": "https://aws.amazon.com",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "Senior solutions architect working on cloud native solutions for local technology companies.",
+      "highlights": ["Promotion"]
+    },{
+      "name": "Culture Amp",
+      "position": "Cloud & Infrastructure Lead",
+      "url": "https://cultureamp.com",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Senior solutions architect working on cloud native solutions.",
+      "highlights": ["Promotion"]
+    },{
+      "name": "Pointsbet",
+      "position": "Global Head of Technology Systems & Operations",
+      "url": "https://pointsbet.com",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Lead the expansion into USA.",
+      "highlights": ["Promotion"]
+    },{
+      "name": "Wood & Grieve Engineers",
+      "position": "Senior Systems Engineer",
+      "url": "https://stantec.com",
+      "startDate": "2009",
+      "endDate": "2018",
+      "summary": "Software Engineer working on internal systems.",
+      "highlights": ["Promotion"]
+    }
+  ],
+  "volunteer": [
+    {
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Columbia University",
+      "url": "https://columbia.edu/",
+      "area": "Computer Science",
+      "studyType": "PhD",
+      "startDate": "2017",
+      "endDate": "2020",
       "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
+      "courses": ["this"]
+    },
+    {
+      "institution": "RMIT University",
+      "url": "https://rmit.edu.au/",
+      "area": "Computer Science",
+      "studyType": "Masters",
+      "startDate": "2014",
+      "endDate": "2017",
+      "score": "4.0",
+      "courses": ["this"]
+    },
+    {
+      "institution": "Curtin University",
+      "url": "https://curtin.edu.au/",
+      "area": "Computer Science & Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2012",
+      "endDate": "2013",
+      "score": "4.0",
+      "courses": ["this"]
+    },
+    {
+      "institution": "Curtin University",
+      "url": "https://curtin.edu.au/",
+      "area": "Art",
+      "studyType": "Bachelor",
+      "startDate": "2009",
+      "endDate": "2011",
+      "score": "4.0",
+      "courses": ["this"]
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [{
+    }
+  ],
+  "certificates": [
+    {
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Engineering",
+      "level": "400",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Software Architecture",
+      "level": "400",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Cloud - AWS",
+      "level": "400",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Cloud - GCP",
+      "level": "300",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Cloud - Azure",
+      "level": "300",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "SRE",
+      "level": "400",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
       "language": "English",
       "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": ["Surfing", "Camping"]
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    }]
-  }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pointsbet - Global Expansion",
+      "startDate": "2010-01-01",
+      "endDate": "2010-01-01",
+      "description": "Lead the global expansion of PB infrastructure",
+      "highlights": ["Unicorn"],
+      "url": "https://pointsbet.com/"
+    }
+  ]
+}
